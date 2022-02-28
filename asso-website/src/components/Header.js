@@ -1,11 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import classes from '../styles/Header.module.scss'
 
 function Header() {
     return (
-        <div>
-            <Link to="/">Home</Link>
-            <Link to="/page-1">Pages</Link>
+        <div className={classes.header}>
+            <Link to="/" className={classes.header__links}>Accueil</Link>
+            <Link to="/donations" className={classes.header__links}>Donations</Link>
+            <Link to="/objectifs" className={classes.header__links}>Objectifs</Link>
         </div>
     );
 }
