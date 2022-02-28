@@ -7,6 +7,7 @@ function Home() {
         <div className={classes.home}>
             <Header />
             <h1 className={classes.home__title}>Home</h1>
+            <h2>Présentation</h2>
         </div>
     );
 }
