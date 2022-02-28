@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './pages/Home';
-import Page1 from './pages/Page1.js';
+import Donations from "./pages/Donations";
+import Objetifs from "./pages/Objetifs";
 
 
 function App() {
